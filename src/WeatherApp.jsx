@@ -38,7 +38,6 @@ export const WeatherApp = () => {
     <>
       <WeatherForm onChangeCity={handleChangeCity} />
       <div>
-        {weather?.current.temp_c}
         <WeatherMainInfo weather={weather} />
       </div>
     </>
